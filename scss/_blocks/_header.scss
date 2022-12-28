@@ -1,0 +1,156 @@
+.header {
+        
+
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            &__hamburger{
+                width: 5rem;
+               
+            }
+            &__amazon{
+                
+                margin-left: 1rem;
+                width: 6rem;
+               
+            }
+        }
+
+        &__middle{
+            display: flex;
+            &__input{
+                width: 20rem;
+            }
+        }
+
+        &__right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__img{
+                width: 10rem; 
+            }
+
+            &__btn{
+                background: #232F3E;
+                color: white;
+                padding: 0.5rem  1rem;
+                margin-left: 1rem;
+                border-radius: .1rem;
+                border: 1px solid #232F3E;
+            }
+        }
+    }
+
+
+
+    &__hero{
+
+        
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         
+       &__left{
+           &__p{
+            width: 70%;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+           }
+           &__h1{
+            margin-top: 1rem;
+           }
+
+           &__btns{
+            &__first{
+                background-color: #146EB4;
+                color: white;
+                border: 1px solid #146EB4;
+                border-radius: .3rem;
+                padding: .6rem;
+            }
+
+            &__second{
+                background-color: #fff;
+                color: #146EB4;
+                border: 1px solid #146EB4;
+                border-radius: .3rem;
+                padding: .6rem;
+                margin-left: .5rem;
+            }
+           }
+       }
+       &__right{
+        margin-bottom: 2rem;
+          &__img{
+           width: 25rem;
+          }
+       }
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1100px){
+    .header{
+
+      &__nav{
+
+        background-color: #e5e5e5;
+        &__left{
+            &__amazon{
+                display: none;
+              
+            }
+        }
+
+        &__right{
+          display: none;
+        }
+
+        &__middle{
+            display: none;
+        }
+      }
+
+
+  .s{
+    text-align: center;
+  }
+    &__hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse; 
+
+         text-align: center;
+         &__left{
+            &__p{
+              text-align: center;
+            width: 100%;
+
+            }
+         }
+    }
+
+
+      
+    }
+}

@@ -1,0 +1,59 @@
+.seller{
+
+   &__h2{
+    margin-top: 2rem;
+   }
+
+
+    &__box{
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        &__card{
+            width: 18rem;
+            border: 1px solid rgb(144, 137, 137);
+            padding: 1rem;
+            border-radius: 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &__img{
+                width: 10rem;
+            }
+
+            &__p{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            &__h2{
+                margin-bottom: 1rem;
+            }
+            &__btns{
+                margin-top: 1rem;
+
+                &__one{
+                    background: #146EB4;
+                    color: white;
+                    border-radius: .3rem;
+                    padding: 0.5rem  1rem;
+                    border: 1px solid #146EB4;
+                    font-weight: bolder;
+                }
+
+                &__two{
+                    background:white ;
+                    color: #146EB4;
+                    border-radius: .3rem;
+                    padding: 0.5rem  1rem;
+                    border: 1px solid #146EB4;
+                    font-weight: bolder;
+
+                }
+            }
+        }
+    }
+}

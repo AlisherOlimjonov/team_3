@@ -1,0 +1,36 @@
+
+.select{
+    margin-bottom: 3rem;
+&__category{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+&__box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+    
+
+    &__element{
+         border: 1px solid;
+         width: 80px;
+         height: 10rem;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         &__text{
+            font-size: .9rem;
+         }
+        &__img{
+           width: 3rem;
+          
+        }
+    }
+}
+}
